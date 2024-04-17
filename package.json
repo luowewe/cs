@@ -1,0 +1,27 @@
+{
+  "name": "gigamonkey",
+  "version": "1.0.0",
+  "description": "This is your repo where you will keep the code you write in this course.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhs-intro-to-programming/gigamonkey.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhs-intro-to-programming/gigamonkey/issues"
+  },
+  "homepage": "https://github.com/bhs-intro-to-programming/gigamonkey#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1",
+    "esbuild": "^0.14.49",
+    "eslint": "^8.19.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}

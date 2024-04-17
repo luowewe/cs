@@ -1,0 +1,163 @@
+[
+  {
+    "name": "Perimeter of a square",
+    "canonical": "4*s",
+    "answer": "4 * s",
+    "correct": true,
+    "timestamp": 1688775671703
+  },
+  {
+    "name": "Perimeter of a rectangle",
+    "canonical": "2 * (w + h)",
+    "answer": "w * h",
+    "correct": false,
+    "timestamp": 1688775674447
+  },
+  {
+    "name": "Perimeter of a rectangle",
+    "canonical": "2 * (w + h)",
+    "answer": "2 * w + 2 * h",
+    "correct": true,
+    "timestamp": 1688775681150
+  },
+  {
+    "name": "Area of a square",
+    "canonical": "s**2",
+    "answer": "s ** 2",
+    "correct": true,
+    "timestamp": 1688775685706
+  },
+  {
+    "name": "Area of a rectangle",
+    "canonical": "w*h",
+    "answer": "w * h",
+    "correct": true,
+    "timestamp": 1688775689181
+  },
+  {
+    "name": "Area of a triangle",
+    "canonical": "b*h/2",
+    "answer": "b * h/2",
+    "correct": true,
+    "timestamp": 1688775698094
+  },
+  {
+    "name": "Area of a trapezoid",
+    "canonical": "(b1 + b2)/2 * h",
+    "answer": "(b1 + b2) * h/2",
+    "correct": true,
+    "timestamp": 1688775708115
+  },
+  {
+    "name": "Area of a circle",
+    "canonical": "Math.PI*r*r",
+    "answer": "Math.PI * r ** 2",
+    "correct": true,
+    "timestamp": 1688775713406
+  },
+  {
+    "name": "Circumference of a circle",
+    "canonical": "Math.PI * 2 * r",
+    "answer": "Math.PI * 2 * r",
+    "correct": true,
+    "timestamp": 1688775724156
+  },
+  {
+    "name": "Perimeter of a square",
+    "canonical": "4*s",
+    "answer": "4 * s",
+    "correct": true,
+    "timestamp": 1690563424353
+  },
+  {
+    "name": "The curved surface area of a cylinder",
+    "canonical": "Math.PI * 2 * r * h",
+    "answer": "Math.PI * 2 * d * h",
+    "correct": false,
+    "timestamp": 1690563446717
+  },
+  {
+    "name": "The curved surface area of a cylinder",
+    "canonical": "Math.PI * 2 * r * h",
+    "answer": "Math.PI * 2 * r * h",
+    "correct": true,
+    "timestamp": 1690563450835
+  },
+  {
+    "name": "Total surface area of a cylinder",
+    "canonical": "Math.PI * 2 * r * (h + r)",
+    "answer": "Math.PI * 2 * r * h + 2 * (Math.PI * r ** 2)",
+    "correct": true,
+    "timestamp": 1690563473434
+  },
+  {
+    "name": "Volume of a Cylinder",
+    "canonical": "Math.PI * r ** 2 * h",
+    "answer": "Math.PI * r ** 2 * h",
+    "correct": true,
+    "timestamp": 1690563484292
+  },
+  {
+    "name": "The curved surface area of a cone from slant height",
+    "canonical": "Math.PI * r * s",
+    "answer": "Math.PI * r * s",
+    "correct": true,
+    "timestamp": 1690563503341
+  },
+  {
+    "name": "Total surface area of a cone from slant height",
+    "canonical": "Math.PI * r * (r + s)",
+    "answer": "Math.PI * r * s + Math.PI * r ** 2",
+    "correct": true,
+    "timestamp": 1690563524471
+  },
+  {
+    "name": "Total surface area of a cone from height",
+    "canonical": "Math.PI * r * (r + Math.sqrt(h ** 2 + r ** 2))",
+    "answer": "Math.PI * r * Math.sqrt(r ** 2 + h ** 2) + Math.PI * r ** 2",
+    "correct": true,
+    "timestamp": 1690563585520
+  },
+  {
+    "name": "Volume of a cone",
+    "canonical": "Math.PI * r ** 2 * h / 3",
+    "answer": "Math.PI * r ** 2 * h / 3",
+    "correct": true,
+    "timestamp": 1690563602572
+  },
+  {
+    "name": "Surface area of a sphere",
+    "canonical": "4 * Math.PI * r ** 2",
+    "answer": "Math.PI * r ** 2 * 4",
+    "correct": true,
+    "timestamp": 1690563618575
+  },
+  {
+    "name": "Volume of sphere",
+    "canonical": "4/3 * Math.PI * r ** 3",
+    "answer": "4 / 3 * Math.PI * r ** 3",
+    "correct": true,
+    "timestamp": 1690563629392
+  },
+  {
+    "name": "Midpoint of line",
+    "canonical": "a + (b - a) / 2",
+    "answer": "(b - a) / 2",
+    "correct": false,
+    "timestamp": 1690563644611
+  },
+  {
+    "name": "Midpoint of line",
+    "canonical": "a + (b - a) / 2",
+    "answer": "a + (b - a) / 2",
+    "correct": true,
+    "timestamp": 1690563658694
+  },
+  {
+    "name": "Length of hypotenuse",
+    "canonical": "Math.sqrt(a ** 2 + b ** 2)",
+    "answer": "Math.sqrt(a ** 2 + b ** 2)",
+    "correct": true,
+    "timestamp": 1690563673513
+  }
+]

@@ -1,0 +1,12 @@
+@import url('/styles/base.css');
+
+html {
+  font-size: 6vw;
+  user-select: none;
+}
+
+body {
+  width: min(30em, 80%);
+  margin: 1in auto;
+  text-align: center;
+}

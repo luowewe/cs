@@ -1,0 +1,66 @@
+html {
+  font-size: 18px;
+  background: rebeccapurple;
+}
+
+body {
+  width: min(40em, 80vw);
+  margin: 1in auto;
+  padding: 50px;
+  background: #eef;
+  box-shadow: 5px 5px #aaa;
+  border-radius: 5px;
+}
+
+header {
+  text-align: right;
+  font-family: sans-serif;
+}
+
+header p {
+  font-size: 0.8rem;
+}
+
+header a {
+  font-weight: 600;
+}
+
+.dynamic header .dynamic {
+  font-weight: 600;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 1.2rem;
+}
+
+p,
+ol {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+code {
+  font-size: 90%;
+}
+
+img {
+  display: float;
+  float: right;
+  margin: 10px;
+  border: 1px solid grey;
+}
+
+ol li {
+  margin-top: 2ex;
+}
+
+div.credits {
+  margin-top: 10ex;
+}
+
+div.credits p {
+  font-size: 12px;
+  text-align: right;
+  margin: 0.5ex 0;
+}

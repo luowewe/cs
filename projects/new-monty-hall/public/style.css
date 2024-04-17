@@ -1,0 +1,47 @@
+body {
+  width: 40em;
+  font-family: sans-serif;
+  margin: 1in auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+li {
+  list-style-image: url("/img/checkbox-unchecked-svgrepo-com.svg");
+  line-height: 1.5;
+  padding-left: 0.5em;
+}
+
+li.done, li.done li {
+  list-style-image: url("/img/checkbox-checked-svgrepo-com.svg");
+}
+
+@media print {
+  body {
+    width: 90vw;
+    margin: 0.25in auto;
+  }
+  .options { display: none; }
+}
+
+@media screen {
+
+  .options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .options a {
+    border: 1px solid grey;
+    text-align: center;
+    font-size: 48px;
+    text-decoration: none;
+    font-family: "Gill Sans";
+    border-radius: 4px;
+    background: #ddfa;
+  }
+
+}

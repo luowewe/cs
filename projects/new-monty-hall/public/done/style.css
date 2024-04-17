@@ -1,0 +1,63 @@
+@import url("../shared.css");
+
+body {
+  width: 40em;
+  margin: 0.5in auto;
+}
+
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#results {
+  display: grid;
+  width: calc(100% - 2rem);
+  gap: 8px;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 1rem;
+}
+
+#results div {
+  text-align: center;
+  font-size: 18px;
+}
+
+#doors {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 30vh;
+  width: calc(100% - 4rem);
+  gap: 8px;
+  padding: 2rem;
+}
+
+#doors div {
+  background: #f66;
+  border: 3px solid blue;
+  padding-top: 10vh;
+  filter: drop-shadow(3px 10px 4px #4444dd);
+  text-align: center;
+  font-size: 3rem;
+  vertical-align: middle;
+}
+
+#doors div.selected {
+  border: 6px solid pink;
+}
+
+.results {
+  margin-top: 1rem;
+}
+
+
+.buttons {
+  padding-top: 1em;
+  text-align: center;
+}
+
+button {
+  font-size: 2rem;
+  border-radius: 6px;
+  margin: 0 3px;
+}

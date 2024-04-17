@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+html {
+  font-family: Lato;
+  font-weight: 400;
+}
+
+body {
+  margin: 50px auto;
+  background: #98f1;
+  color: #888;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 100px);
+}
+
+#main > h1 {
+  flex: 0;
+}
+
+#main > svg {
+  flex: 1;
+}
+
+#main > p {
+  flex: 0;
+}
+
+svg {
+  width: 100vw;
+  user-select: none;
+  margin: 0 auto;
+}
+
+text {
+  font-family: Lato;
+}
+
+text:hover,
+circle:hover
+{
+  cursor: grab;
+}
+
+.item text {
+  font-weight: 300;
+}
+
+.axis {
+  stroke: #bbb;
+  fill: #bbb;
+  stroke-width: 1px;
+}
+
+input {
+  width: 50%;
+  border: 0.5px solid #888;
+}
+
+.instructions {
+  position: absolute;
+  top: 25px;
+  right: 50px;
+  width: 20px;
+  max-height: 25px;
+  transition: width 0.5s, max-height 0.5s, right 0.5s, top 0.5s, color 0.5s 0.5s;
+  background: #80f;
+  color: #0000;
+}
+
+.instructions p.icon {
+  text-align: center;
+  margin: 0;
+  color: white;
+}
+.instructions.show p.icon {
+  text-align: right;
+}
+
+.show {
+  padding: 20px;
+  top: 30vh;
+  right: 30vw;
+  width: 40vw;
+  max-height: 100vh;
+  box-shadow: 10px 5px 5px #60d;
+  color: white;
+}
+
+.instructions .text {
+  display: none;
+}
+
+.instructions.show .text {
+  display: block;
+  height: 100%;
+}
+
+#main svg {
+  display: block;
+}
+
+#main p {
+  text-align: center;
+}

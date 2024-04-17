@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <title>AI use case sorter</title>
+    <link href="style.css" media="all" rel="stylesheet" type="text/css">
+    <script src="script.js" type="module"></script>
+</head>
+<body>
+  <div class="instructions">
+    <p class="icon">?</p>
+    <div class="text">
+      <p>
+        Place items along the horizontal axis based on how well you think using AI
+        tools for that task supports learning and along the vertical axis based on
+        your opinion of how useful current AI tools are for the task.
+      </p>
+      <p>
+        Note that you might place something far to the right on the horizontal
+        axis because it <i>could</i> be a great learning tool but low on the
+        vertical axis because AI tools aren't good at it yet or vice versa, high
+        on the vertical axis because AI tools are great for doing the task but on
+        the left side of the horizontal axis because students will learn more by
+        doing the task without AI assistance.
+      </p>
+    </div>
+  </div>
+  <div id="main">
+    <h1>AI use case sorter</h1>
+    <svg id="plot"></svg>
+    <p>Click and drag items to position them where you think they belong.</p>
+    <p>Add an item: <input type="text"></input></p>
+  </div>
+</body>
+</html>

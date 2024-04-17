@@ -1,0 +1,50 @@
+@import url('/styles/base.css');
+
+html {
+  font-size: 16px;
+}
+
+body {
+  width: min(600px, 80vmin);
+  margin: 1in auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+#grid {
+  display: grid;
+  width: min(600px, 80vmin);
+  height: min(600px, 80vmin);
+  gap: 8px;
+}
+
+div.box {
+  border: 1px solid grey;
+}
+
+button {
+  margin-top: 20px;
+  font-family: 'Montserrat';
+  font-size: 1rem;
+  background: #ddf;
+  padding: 6px;
+  border-radius: 3px;
+  box-shadow: 2px 2px #bbd;
+  border: 1px solid #bbd;
+}
+
+button:hover {
+  background: #cce;
+}
+
+button:active {
+  background: #bbd;
+  box-shadow: 0px 0px transparent;
+  position: relative;
+  top: 2px;
+  left: 2px;
+}

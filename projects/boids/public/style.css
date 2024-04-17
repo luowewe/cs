@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+canvas {
+  /* note: top margin needs to fit with size of canvas set in Javascript. */
+  margin: 2.5vh auto;
+  border: 1px dotted grey;
+  background: #ccbbff;
+}

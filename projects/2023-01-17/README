@@ -1,0 +1,10 @@
+In this assignment you will add code to scripts/script.js which is loaded by the
+HTML page dynamic.html in order to make dynamic.html contain the same HTML as
+index.html but generated via Javascript code that manipulates the DOM.
+
+You'll probably need to look at index.html in the editor to see exactly what
+HTML elements it's using but you can also look at it in the browser to copy and
+paste text that you need.
+
+You don't need to make any changes to styles/style.css; it's just there to make
+the pages look okay.

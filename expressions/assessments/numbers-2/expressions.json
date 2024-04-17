@@ -1,0 +1,100 @@
+[
+  {
+    "name": "Difference",
+    "canonical": "a - b",
+    "answer": "a ",
+    "correct": false,
+    "timestamp": 1662004546918
+  },
+  {
+    "name": "Difference",
+    "canonical": "a - b",
+    "answer": "a ",
+    "correct": false,
+    "timestamp": 1662004547730
+  },
+  {
+    "name": "Difference",
+    "canonical": "a - b",
+    "answer": "a - b",
+    "correct": true,
+    "timestamp": 1662004549599
+  },
+  {
+    "name": "Seconds in a day",
+    "canonical": "24 * 60 * 60",
+    "answer": "60 * 60 * 24",
+    "correct": true,
+    "timestamp": 1662004556096
+  },
+  {
+    "name": "1337 times 32",
+    "canonical": "1337 * 32",
+    "answer": "1337 * 32",
+    "correct": true,
+    "timestamp": 1662004558531
+  },
+  {
+    "name": "Manhattan distance",
+    "canonical": "Math.abs(x1 - x2) + Math.abs(y1 - y2)",
+    "answer": "Math.abs(x1 - x2) + Math.abs(y1 - y2)",
+    "correct": true,
+    "timestamp": 1662004572987
+  },
+  {
+    "name": "Product",
+    "canonical": "a * b",
+    "answer": "a * b",
+    "correct": true,
+    "timestamp": 1662004577772
+  },
+  {
+    "name": "Remainder",
+    "canonical": "a % b",
+    "answer": "a % b",
+    "correct": true,
+    "timestamp": 1662004580611
+  },
+  {
+    "name": "Sum",
+    "canonical": "a + b",
+    "answer": "a + b",
+    "correct": true,
+    "timestamp": 1662004582556
+  },
+  {
+    "name": "Sally's even more apples",
+    "canonical": "6432 - 4000",
+    "answer": "6432 - 4000",
+    "correct": true,
+    "timestamp": 1662004588905
+  },
+  {
+    "name": "Distance",
+    "canonical": "Math.abs(a - b)",
+    "answer": "Math.abs(a - b)",
+    "correct": true,
+    "timestamp": 1662004595978
+  },
+  {
+    "name": "Average",
+    "canonical": "(a + b) / 2",
+    "answer": "(a + b) / 2",
+    "correct": true,
+    "timestamp": 1662004599274
+  },
+  {
+    "name": "Ratio",
+    "canonical": "a / b",
+    "answer": "a / b",
+    "correct": true,
+    "timestamp": 1662004601248
+  },
+  {
+    "name": "Area of circle with radius 2",
+    "canonical": "Math.PI * 4",
+    "answer": "Math.PI * 2 ** 2",
+    "correct": true,
+    "timestamp": 1662004606782
+  }
+]

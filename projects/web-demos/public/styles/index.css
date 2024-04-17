@@ -1,0 +1,14 @@
+@import url('base.css');
+
+html {
+  font-size: 3vw;
+}
+
+body {
+  width: fit-content;
+  margin: 1in auto;
+}
+
+a {
+  text-decoration: underline dotted;
+}

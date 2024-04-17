@@ -1,0 +1,37 @@
+html {
+  background: #ddd;
+}
+
+body {
+  background: #eef;
+  width: 40em;
+  margin: 1in auto;
+  padding: 50px;
+  border-radius: 6px;
+  border: 1px solid black;
+}
+
+* {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+textarea,
+p {
+  width: 100%;
+  padding: 6px;
+}
+
+#plaintext,
+#ciphertext {
+  height: 25vh;
+}
+
+#ciphertext {
+  border: thin solid black;
+}
+
+input[type="range"] {
+  margin-left: 1em;
+  vertical-align: middle;
+}

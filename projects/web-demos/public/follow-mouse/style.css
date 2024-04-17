@@ -1,0 +1,22 @@
+@import url('/styles/base.css');
+
+html {
+  background: #666;
+  cursor: pointer;
+  user-select: none;
+}
+
+body {
+  text-align: center;
+}
+
+p {
+  color: aliceblue;
+}
+
+div {
+  position: absolute;
+  font-size: 3vw;
+  top: 50vh;
+  left: 50vw;
+}

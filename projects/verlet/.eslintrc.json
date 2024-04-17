@@ -1,0 +1,67 @@
+{
+  "env": {
+    "browser": true
+  },
+  "extends": ["airbnb-base", "prettier"],
+  "parserOptions": {
+    "ecmaVersion": "2022"
+  },
+  "rules": {
+    "arrow-parens": ["error", "always"],
+    "class-methods-use-this": "off",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "": "never"
+      }
+    ],
+    "max-classes-per-file": "off",
+    "no-console": "off",
+    "no-else-return": "off",
+    "no-param-reassign": ["error", { "props": false }],
+    "no-plusplus": "off",
+    "no-restricted-syntax": "off",
+    "no-shadow": "off",
+    "no-use-before-define": "off",
+    "new-cap": [
+      "error",
+      {
+        "newIsCap": false,
+        "capIsNew": true
+      }
+    ],
+    "prefer-destructuring": [
+      "error",
+      {
+        "VariableDeclarator": {
+          "array": true,
+          "object": true
+        },
+        "AssignmentExpression": {
+          "array": false,
+          "object": true
+        }
+      },
+      {
+        "enforceForRenamedProperties": false
+      }
+    ],
+    "array-bracket-spacing": ["error", "always"],
+    "object-curly-spacing": ["error", "always"],
+    "spaced-comment": [
+      "error",
+      "always",
+      {
+        "exceptions": ["/"]
+      }
+    ],
+    "yoda": [
+      "error",
+      "never",
+      {
+        "exceptRange": true
+      }
+    ]
+  }
+}

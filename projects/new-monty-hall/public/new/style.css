@@ -1,0 +1,28 @@
+@import url('../shared.css');
+
+body {
+  width: 40em;
+  margin: 0.5in auto;
+}
+
+h1 {
+  font-family: sans-serif;
+}
+
+p {
+  font-size: 18px;
+}
+
+#doors {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 30vh;
+  gap: 10px;
+}
+
+#doors div {
+  border: 1px solid black;
+  font-size: 100px;
+  /*height: 100px;*/
+}

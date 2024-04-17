@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin-top: 1em;
+}
+
+body {
+  width: 40em;
+  margin: 1in auto;
+  border: 1px solid blue;
+  padding: 20px;
+  background: rebeccapurple;
+  color: aliceblue;
+}
+
+html {
+  background: #aac;
+}
+
+p {
+  font-size: 18px;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #dbf;
+}
+
+div.answer {
+  padding: 0.5em 1.5em;
+  font-family: "Rouge Script", serif;
+  /* what happens when we try to set the font size here? */
+}
+
+div.answer p {
+  font-size: 32px;
+}
+
+html {
+  background-image: url(/images/Skull-And-Crossbones-Remix.svg);
+  background-size: 20%;
+}
+
+body {
+  border-radius: 20px;
+}
+
+footer {
+  margin-top: 0.5in;
+  font-family: monospace;
+  text-align: right;
+}
+
+footer p {
+  font-size: 12px;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline dotted;
+}

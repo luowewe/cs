@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <title>UI elements</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <script src="script.js" type="module"></script>
+</head>
+<body>
+  <h1>Some UI elements</h1>
+  <div id="elements">
+    <fieldset>
+      <legend><code>&lt;button&gt;</code><!-- - a button you can press.--></legend>
+      <button>Press me</button>
+    </fieldset>
+
+    <fieldset>
+      <legend><code>&lt;input type="text"&gt;</code><!-- - a single line--></legend>
+      <input type="text"></input>
+    </fieldset>
+
+    <fieldset>
+      <legend><code>&lt;textarea&gt;</code><!-- - multiline text--></legend>
+      <textarea></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend><code>&lt;select&gt;</code><!-- - A dropdown menu.--></legend>
+      <select>
+        <option value="one">One</option>
+        <option value="two">Two</option>
+        <option value="three">Three</option>
+      </select>
+    </fieldset>
+
+    <fieldset>
+      <legend><code>&lt;input type="checkbox"&gt;</code><!-- - independent choices--></legend>
+      <label>foo: <input type="checkbox" value="foo"></input></label>
+      <label>bar: <input type="checkbox" value="bar"></input></label>
+      <label>baz: <input type="checkbox" value="baz"></input></label>
+    </fieldset>
+
+    <fieldset>
+      <legend><code>&lt;input type="radio"&gt;</code><!-- - mutually exclusive choices--></legend>
+      <label>foo: <input type="radio" name="choice" value="foo"></input></label>
+      <label>bar: <input type="radio" name="choice" value="bar"></input></label>
+      <label>baz: <input type="radio" name="choice" value="baz"></input></label>
+    </fieldset>
+
+    <fieldset>
+      <legend><code>&lt;input type="range"&gt;</code><!-- - select from a range of values--></legend>
+      <input type="range" min="-100" max="100" value="0"></input>
+    </fieldset>
+
+    <fieldset>
+      <legend><code>&lt;input type="color"&gt;</code><!-- - select a color--></legend>
+      <input type="color"></input>
+    </fieldset>
+  </div>
+</body>
+</html>

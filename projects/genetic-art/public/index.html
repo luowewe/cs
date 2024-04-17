@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <title>Genetic art</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <script src="script.js" type="module"></script>
+</head>
+<body>
+  <div><button>Add triangle</button></div>
+  <h1 id="generation"></h1>
+  <div id="canvases">
+    <figure>
+      <canvas id="reference"></canvas>
+      <figcaption><a>Reference image</a></figcaption>
+    </figure>
+    <figure>
+      <canvas id="generated"></canvas>
+      <figcaption>Generated. <span id="score"></span></figcaption>
+    </figure>
+    <figure>
+      <canvas id="best"></canvas>
+      <figcaption>Best. <span id="bestScore"></span></figcaption>
+    </figure>
+  </div>
+  <div id="bests">
+    <template id="newbest">
+      <figure>
+        <canvas></canvas>
+        <figcaption></figcaption>
+      </figure>
+    </template>
+  </div>
+</body>
+</html>

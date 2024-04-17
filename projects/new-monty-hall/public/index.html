@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <title>Monty Hall</title>
+    <link href="style.css" media="all" rel="stylesheet" type="text/css">
+    <script src="script.js" type="module"></script>
+</head>
+<body>
+  <h1>Let’s Make a Deal!</h1>
+  <div class="options">
+    <a href="done/">Done</a>
+    <a href="new/">New</a>
+  </div>
+
+  <h2>Todo</h2>
+  <ul>
+    <li class="done">Three doors on page</li>
+    <li class="done">Randomly pick door for the prize</li>
+    <li class="done">Show empty door on click
+      <ul>
+        <li>Install a click handler on each door that just console logs something</li>
+        <li>Write <code>showDoor</code> function that can show a door given a number.</li>
+        <li>Use number of clicked door and prizeBehind to pick a random door</li>
+        <li>Hook up click handlers to call <code>showDoor</code> on the selected door to show $0</li>
+      </ul>
+    </li>
+    <li>Style first selected door when it is clicked.</li>
+    <li>Augment <code>onclick</code> to handle final choice.</li>
+    <li>Add element to page to show result</li>
+    <li>Add "Play again" button
+      <ul>
+        <li>Add button to <code>index.html</code></li>
+        <li>Add <code>onclick</code> handler button that resets the doors and
+          moves the prize to a new random position.</li>
+      </ul>
+    </li>
+    <li>Show cumulative results
+      <ul>
+        <li>Add variables to track results (times played and times won for both switch and stay)</li>
+        <li>Add element to page to show cummulative results</li>
+      </ul>
+    </li>
+    <li>Add "Automatic" button
+      <ul>
+        <li>Add button to <code>index.html</code></li>
+        <li>Write a placeholder <code>automatic</code> function.</li>
+        <li>Add <code>onclick</code> handler button that calls <code>automatic</code></li>
+        <li>Implement actual <code>automatic</code> in three parts.
+          <ul>
+            <li>Write <code>automaticFirstChoice</code> that picks a door at random.</li>
+            <li>Write <code>automaticSecondChoice</code> that either picks the
+            same door or switches to the unrevealed door</li>
+            <li>Wire together the two functions via <code>setTimeout</code></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>Go to town on polish and style!</li>
+  </ul>
+
+</body>
+</html>

@@ -11,10 +11,10 @@ eslint_strict_opts := --rule 'no-console: 1'
 all: pretty lint
 
 pretty:
-	prettier --write 'projects/**/*.js' 'projects/**/*.css' 'projects/**/*.json'
+	prettier --write '**/*.js' '**/*.css' '**/*.json'
 
 lint:
-	npx eslint $(eslint_opts) projects/**/*.js
+	npx eslint $(eslint_opts) **/*.js
 
 lint_version:
 	npx eslint --version

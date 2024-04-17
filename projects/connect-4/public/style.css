@@ -1,0 +1,41 @@
+body {
+}
+
+h1 {
+  font-family: sans-serif;
+}
+
+p {
+  font-size: 18px;
+}
+
+#grid {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  background: blue;
+  padding: 20px;
+  margin: 1in auto;
+  width: 50%;
+  filter: drop-shadow(20px 10px 10px blue);
+}
+
+#grid div {
+  /*border: 1px solid black;*/
+  z-index: 1;
+  border-radius: 50%;
+  width: 7vmin;
+  height: 7vmin;
+  align-self: center;
+  justify-self: center;
+  margin: 10px;
+  background-color: white;
+  /*filter: drop-shadow(5px 5px 5px white);*/
+}
+
+#grid div.red {
+  background-color: red;
+  /*filter: drop-shadow(5px 5px 5px red);*/
+}

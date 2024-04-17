@@ -1,0 +1,16 @@
+@import url('/styles/base.css');
+
+html {
+  font-size: 5vw;
+  user-select: none;
+}
+
+body {
+  width: min(30em, 80%);
+  margin: 1in auto;
+  text-align: center;
+}
+
+#counter {
+  font-family: monospace;
+}
